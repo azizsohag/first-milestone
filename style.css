@@ -35,11 +35,27 @@ section{
 }
 
 .common{
-    box-sizing: content-box;
-    height:30%;
-    width: 30%;
+    width: 25%;
     float: left;
+   padding: 20px;
+  
 }
 .common img{
-    width: 100%;
+    width: 100%;  
 }
+
+section{
+    width: 100%;
+    margin: auto;
+}
+div{
+    width: 80%;
+    margin: auto;
+  
+}
+.bg-photo{
+    background-image: url(Group_33094_1.png);
+    height: 200px;
+    float: left;
+}
+
