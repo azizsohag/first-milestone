@@ -1,12 +1,14 @@
 body{
     background-color: rgba(92, 74, 74, 0.534);
     font-family: 'Crimson Pro', serif;
+    margin: 0px;
+}
 }
 .font-size{
-    font-size: 50px
+    font-size: 50px;
 }
 .color-highlight{
-    color: orange;
+    color: rgba(212, 26, 35, 0.966);
 }
 .link-button{
     text-decoration: none;
@@ -31,7 +33,13 @@ body{
 section{
     height: 500px;
 }
-.top-banner{
-  (background-image: url(bg-2.png);
+
+.common{
+    box-sizing: content-box;
+    height:30%;
+    width: 30%;
+    float: left;
 }
-    
+.common img{
+    width: 100%;
+}
